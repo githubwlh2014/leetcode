@@ -1,4 +1,6 @@
 #include<iostream>
+#include<string>
+#include<limits>
 using namespace std;
 
 bool isPalindrome(int x) {
@@ -22,6 +24,8 @@ bool isPalindrome(int x) {
 
 int main()
 {
-
+    string m="Hello";
+    m='d'+m;
+    cout<<m<<endl;
 
 }
