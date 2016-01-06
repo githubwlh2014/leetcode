@@ -60,5 +60,5 @@ bool wordPattern(string pattern, string str) {
 int main()
 {
     cout<<('z'-'a')<<endl;
-    cout<<wordPattern("abba","dog cat cat dog");
+    cout<<wordPattern("abbaca","dog cat cat dog cat dog");
 }
