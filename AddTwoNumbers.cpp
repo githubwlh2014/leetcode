@@ -66,8 +66,10 @@ int main()
     tmp1=addTwoNumbers(tmp1,tmp2);
     while(tmp1!=NULL)
     {
-        cout<<tmp1->val;
+    //    cout<<tmp1->val;
         tmp1=tmp1->next;
     }
+    string str="3";
+    cout<<int(str[0])<<endl;
 
 }
